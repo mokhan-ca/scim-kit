@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'A simple toolkit for working with SCIM 2.0'
   spec.description   = 'A simple toolkit for working with SCIM 2.0'
-  spec.homepage      = 'https://github.com/xlgmokha/scim-kit'
+  spec.homepage      = 'https://github.com/mokhan-ca/scim-kit'
   spec.license       = 'MIT'
 
   # Specify which files should be added to the gem when it is released.
@@ -29,6 +29,10 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
   spec.required_ruby_version = Gem::Requirement.new('>= 3.2.0')
   spec.metadata['yard.run'] = 'yri'
+  spec.metadata['allowed_push_host'] = 'https://rubygems.org'
+  spec.metadata['changelog_uri'] = "#{spec.homepage}/blob/main/CHANGELOG.md"
+  spec.metadata['rubygems_mfa_required'] = 'true'
+  spec.metadata['source_code_uri'] = spec.homepage
 
   spec.add_dependency 'activemodel', '>= 6.1'
   spec.add_dependency 'net-hippie', '~> 1.0'
