@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.8.1](https://github.com/mokhan-ca/scim-kit/compare/v0.8.0...v0.8.1) (2026-11-24)
+
+
+### Bug Fixes
+
+* link the gem to its repository and changelog ([c5321c9](https://github.com/mokhan-ca/scim-kit/commit/c5321c920eea2928edbe65ea64833023678074b3))
+
 ## [0.8.0] - 2026-03-31
 ### Changed
 - Allow using activemodel version 8+
